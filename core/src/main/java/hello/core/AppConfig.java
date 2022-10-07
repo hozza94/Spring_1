@@ -7,7 +7,8 @@ import hello.core.member.MemoryMemberRepository;
 import hello.core.order.OrderService;
 import hello.core.order.OrderServiceImpl;
 
-// 어플리 케이션에 대한 상세 설정을 진행
+// 어플리케이션에 대한 상세 설정을 진행
+// 의존 관계 주입 DI(Dependency Injection)
 public class AppConfig {
 
     public MemberService memberService() {
